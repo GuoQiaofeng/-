@@ -1,7 +1,37 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e2baba35-89c7-4795-80b3-56cb92d2546e" name="Default" comment="" />
+    <list default="true" id="e2baba35-89c7-4795-80b3-56cb92d2546e" name="Default" comment="20190619">
+      <change beforePath="$PROJECT_DIR$/partial_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/partial_test.py" afterDir="false" />
+    </list>
+    <list id="ad662fcb-f35a-4e9b-9bda-066e35afe98d" name="20190619" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/other.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/keras.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myplot.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pdp.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/save_data/ann_data.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/save_data/gbrt_data.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/save_data/lr_data.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/save_data/rf_data.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/save_data/svm_data.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/save_model/rf.pickle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/20180905 test.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/20180905 test.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DNN_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/DNN_test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MLP_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/MLP_test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gbr_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/gbr_test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lr_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/lr_test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rf_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/rf_test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/save/ann_data.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/save/gbrt_data.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/save/lr_data.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/save/rf_data.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/save/svm_data.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/svm_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/svm_test.py" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,8 +88,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/data_loading.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1330">
-              <caret line="72" column="33" selection-start-line="72" selection-start-column="33" selection-end-line="72" selection-end-column="33" />
+            <state relative-caret-position="618">
+              <caret line="60" column="36" selection-start-line="60" selection-start-column="36" selection-end-line="60" selection-end-column="36" />
               <folding>
                 <element signature="e#0#10#0" expanded="true" />
               </folding>
@@ -67,11 +97,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/rf_test.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="209">
-              <caret line="11" column="32" selection-end-line="142" selection-end-column="3" />
+            <state relative-caret-position="171">
+              <caret line="9" selection-start-line="9" selection-end-line="9" />
               <folding>
                 <element signature="e#0#18#0" expanded="true" />
               </folding>
@@ -80,30 +110,57 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/total_performance.py">
+        <entry file="file://$PROJECT_DIR$/MLP_test.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="190">
-              <caret line="10" column="32" selection-start-line="10" selection-start-column="32" selection-end-line="10" selection-end-column="32" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/partial_test.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1311">
-              <caret line="69" column="22" selection-start-line="69" selection-start-column="22" selection-end-line="69" selection-end-column="22" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lr_test.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="741">
-              <caret line="46" column="37" selection-start-line="46" selection-start-column="37" selection-end-line="46" selection-end-column="37" />
+            <state relative-caret-position="399">
+              <caret line="30" selection-start-line="30" selection-end-line="35" selection-end-column="23" />
               <folding>
                 <element signature="e#0#18#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/svm_test.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="551">
+              <caret line="40" column="82" selection-start-line="40" selection-start-column="82" selection-end-line="40" selection-end-column="82" />
+              <folding>
+                <element signature="e#0#18#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/gbr_test.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="228">
+              <caret line="21" column="32" selection-start-line="21" selection-start-column="32" selection-end-line="21" selection-end-column="32" />
+              <folding>
+                <element signature="e#0#18#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/partial_test.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="114">
+              <caret line="6" column="46" lean-forward="true" selection-start-line="6" selection-start-column="46" selection-end-line="6" selection-end-column="46" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pdp.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="931">
+              <caret line="57" column="43" selection-start-line="57" selection-start-column="43" selection-end-line="57" selection-end-column="43" />
+              <folding>
+                <element signature="e#16#34#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -114,10 +171,13 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Python Script" />
         <option value="Python Unit Test" />
+        <option value="Python Script" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -130,17 +190,19 @@
         <option value="$PROJECT_DIR$/rf-cross-validation.py" />
         <option value="$PROJECT_DIR$/svm-cross-validation.py" />
         <option value="$PROJECT_DIR$/pytorch.py" />
-        <option value="$PROJECT_DIR$/DNN_test.py" />
         <option value="$PROJECT_DIR$/box.py" />
         <option value="$PROJECT_DIR$/validation/cv_test.py" />
         <option value="$PROJECT_DIR$/validation/svm-cross-validation.py" />
-        <option value="$PROJECT_DIR$/svm_test.py" />
-        <option value="$PROJECT_DIR$/MLP_test.py" />
-        <option value="$PROJECT_DIR$/gbr_test.py" />
-        <option value="$PROJECT_DIR$/lr_test.py" />
-        <option value="$PROJECT_DIR$/data_loading.py" />
         <option value="$PROJECT_DIR$/total_performance.py" />
+        <option value="$PROJECT_DIR$/data_loading.py" />
+        <option value="$PROJECT_DIR$/DNN_test.py" />
+        <option value="$PROJECT_DIR$/lr_test.py" />
+        <option value="$PROJECT_DIR$/keras.py" />
         <option value="$PROJECT_DIR$/rf_test.py" />
+        <option value="$PROJECT_DIR$/MLP_test.py" />
+        <option value="$PROJECT_DIR$/svm_test.py" />
+        <option value="$PROJECT_DIR$/gbr_test.py" />
+        <option value="$PROJECT_DIR$/pdp.py" />
         <option value="$PROJECT_DIR$/partial_test.py" />
       </list>
     </option>
@@ -151,6 +213,7 @@
     <option name="width" value="1755" />
     <option name="height" value="1020" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -171,9 +234,10 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+    <property name="settings.editor.selected.configurable" value="settings.github" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -188,6 +252,28 @@
     </option>
   </component>
   <component name="RunManager" selected="Python.partial_test">
+    <configuration name="MLP_test" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="20180905 test" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/MLP_test.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="gbr_test" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="20180905 test" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -202,28 +288,6 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/gbr_test.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="lr_test" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="20180905 test" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/lr_test.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -254,7 +318,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="rf_test" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="pdp" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="20180905 test" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -267,7 +331,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/rf_test.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/pdp.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -276,7 +340,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="total_performance" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="svm_test" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="20180905 test" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -289,7 +353,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/total_performance.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/svm_test.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -299,19 +363,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.total_performance" />
+      <item itemvalue="Python.MLP_test" />
+      <item itemvalue="Python.svm_test" />
       <item itemvalue="Python.gbr_test" />
-      <item itemvalue="Python.lr_test" />
-      <item itemvalue="Python.rf_test" />
+      <item itemvalue="Python.pdp" />
       <item itemvalue="Python.partial_test" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="Python.partial_test" />
-        <item itemvalue="Python.rf_test" />
-        <item itemvalue="Python.lr_test" />
-        <item itemvalue="Python.total_performance" />
+        <item itemvalue="Python.pdp" />
         <item itemvalue="Python.gbr_test" />
+        <item itemvalue="Python.svm_test" />
+        <item itemvalue="Python.MLP_test" />
       </list>
     </recent_temporary>
   </component>
@@ -321,6 +385,8 @@
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="e2baba35-89c7-4795-80b3-56cb92d2546e" name="Default" comment="" />
+      <changelist id="" name="20190619" comment="" />
+      <changelist id="ad662fcb-f35a-4e9b-9bda-066e35afe98d" name="20190619" comment="" />
       <created>1536122346749</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
@@ -350,7 +416,36 @@
       <workItem from="1555661218822" duration="9000" />
       <workItem from="1555773449194" duration="608000" />
       <workItem from="1555821669026" duration="10000" />
+      <workItem from="1555912948206" duration="2000" />
+      <workItem from="1560241113889" duration="2396000" />
+      <workItem from="1560324219571" duration="1341000" />
+      <workItem from="1560325735581" duration="2429000" />
+      <workItem from="1560328524446" duration="4302000" />
+      <workItem from="1560844497635" duration="1718000" />
+      <workItem from="1560914884336" duration="2796000" />
     </task>
+    <task id="LOCAL-00001" summary="20190619">
+      <created>1560914644781</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1560914644781</updated>
+    </task>
+    <task id="LOCAL-00002" summary="20190619">
+      <created>1560914941499</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1560914941499</updated>
+    </task>
+    <task id="LOCAL-00003" summary="20190619">
+      <created>1560915987189</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1560915987189</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -365,17 +460,18 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="80050000" />
+    <option name="totallyTimeSpent" value="95034000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.15683647" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.17091152" />
       <window_info id="Structure" order="1" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.40743735" weight="0.2602546" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.40743735" visible="true" weight="0.2592068" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39745402" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -383,33 +479,102 @@
       <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.5925627" side_tool="true" weight="0.2429078" />
       <window_info anchor="bottom" id="Python Console" order="8" />
       <window_info anchor="bottom" id="Terminal" order="9" />
-      <window_info anchor="bottom" id="Version Control" order="10" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="10" weight="0.3286119" />
       <window_info anchor="bottom" id="Docker" order="11" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="12" />
+      <window_info anchor="bottom" id="Messages" order="13" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info anchor="right" id="Data View" order="4" />
-      <window_info anchor="right" id="SciView" order="5" />
+      <window_info anchor="right" auto_hide="true" x="522" y="150" width="492" height="523" id="SciView" order="5" show_stripe_button="false" type="FLOATING" weight="0.3297587" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="Vcs.Log.History.Properties">
+    <option name="COLUMN_ORDER">
+      <list>
+        <option value="0" />
+        <option value="2" />
+        <option value="3" />
+        <option value="1" />
+      </list>
+    </option>
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="RECENTLY_FILTERED_USER_GROUPS">
+                <collection />
+              </option>
+              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+                <collection />
+              </option>
+              <option name="COLUMN_ORDER">
+                <list>
+                  <option value="0" />
+                  <option value="1" />
+                  <option value="2" />
+                  <option value="3" />
+                </list>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="RECENT_FILTERS">
+      <map>
+        <entry key="Branch">
+          <value>
+            <list>
+              <RecentGroup>
+                <option name="FILTER_VALUES">
+                  <option value="origin/master" />
+                </option>
+              </RecentGroup>
+              <RecentGroup>
+                <option name="FILTER_VALUES">
+                  <option value="HEAD" />
+                </option>
+              </RecentGroup>
+              <RecentGroup>
+                <option name="FILTER_VALUES">
+                  <option value="master" />
+                </option>
+              </RecentGroup>
+            </list>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="20190619" />
+    <option name="LAST_COMMIT_MESSAGE" value="20190619" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/1_2_ML_10_$data_loading.coverage" NAME="data_loading Coverage Results" MODIFIED="1560242142369" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/1_2_ML_10_$partial_test.coverage" NAME="partial_test Coverage Results" MODIFIED="1560917845688" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/1_2_ML_10_$rf_test.coverage" NAME="rf_test Coverage Results" MODIFIED="1560332223323" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/1_2_ML_10_$lr_test.coverage" NAME="lr_test Coverage Results" MODIFIED="1560242020398" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/1_2_ML_10_$pdp.coverage" NAME="pdp Coverage Results" MODIFIED="1560845095334" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/1_2_ML_10_$MLP_test.coverage" NAME="MLP_test Coverage Results" MODIFIED="1560333277655" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/1_2_ML_10_$svm_test.coverage" NAME="svm_test Coverage Results" MODIFIED="1560333371685" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/1_2_ML_10_$gbr_test.coverage" NAME="gbr_test Coverage Results" MODIFIED="1560333445360" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/1_2_ML_10_$total_performance.coverage" NAME="total_performance Coverage Results" MODIFIED="1560242054103" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+  </component>
   <component name="editorHistoryManager">
-    <entry file="file://D:/Anaconda/Lib/site-packages/sklearn/utils/__init__.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://D:/Anaconda/Lib/site-packages/sklearn/utils/__init__.py" />
     <entry file="file://F:/2018.1-2018.8/DNN 5.24/data_loading.py" />
     <entry file="file://$PROJECT_DIR$/../20180904  test/test1.py" />
-    <entry file="file://D:/Anaconda/Lib/site-packages/sklearn/datasets/base.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2268">
-          <caret line="687" column="4" lean-forward="true" selection-start-line="687" selection-start-column="4" selection-end-line="687" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://D:/Anaconda/Lib/site-packages/sklearn/datasets/base.py" />
     <entry file="file://$USER_HOME$/.PyCharm2017.2/system/python_stubs/1310655275/builtins.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="103">
@@ -420,37 +585,13 @@
     <entry file="file://E:/KSL-RF/KSL.py" />
     <entry file="file://$PROJECT_DIR$/../test2/test2.py" />
     <entry file="file://E:/20180903 before/KSL-RF/KSL.py" />
-    <entry file="file://D:/Anaconda/Lib/site-packages/sklearn/model_selection/_split.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="373">
-          <caret line="2025" selection-start-line="2025" selection-end-line="2025" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://D:/Anaconda/Lib/site-packages/pandas/core/frame.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="549">
-          <caret line="306" lean-forward="true" selection-start-line="306" selection-end-line="306" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://D:/Anaconda/Lib/site-packages/sklearn/utils/validation.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="236">
-          <caret line="577" selection-start-line="577" selection-end-line="577" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://D:/Anaconda/Lib/site-packages/sklearn/model_selection/_split.py" />
+    <entry file="file://D:/Anaconda/Lib/site-packages/pandas/core/frame.py" />
+    <entry file="file://D:/Anaconda/Lib/site-packages/sklearn/utils/validation.py" />
     <entry file="file://$USER_HOME$/code/20180903 before/KSL-DNN/KSL.py" />
     <entry file="file://D:/Anaconda/Lib/site-packages/pydotplus/parser.py" />
     <entry file="file://D:/Anaconda/Lib/site-packages/pydotplus/__init__.py" />
-    <entry file="file://D:/Anaconda/Lib/site-packages/pydotplus/graphviz.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="349">
-          <caret line="1959" selection-start-line="1959" selection-end-line="1959" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://D:/Anaconda/Lib/site-packages/pydotplus/graphviz.py" />
     <entry file="file://$PROJECT_DIR$/test.py" />
     <entry file="file://D:/Anaconda/Lib/site-packages/graphviz/dot.py" />
     <entry file="file://D:/Anaconda/Lib/site-packages/graphviz/__init__.py" />
@@ -522,69 +663,53 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://D:/Anaconda/Lib/site-packages/matplotlib/pyplot.py" />
+    <entry file="file://D:/Anaconda/Lib/site-packages/sklearn/ensemble/partial_dependence.py" />
+    <entry file="file://$USER_HOME$/.PyCharm2019.1/system/python_stubs/-2036615904/builtins.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="226">
+          <caret line="807" column="8" selection-start-line="807" selection-start-column="8" selection-end-line="807" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/DNN_test.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret line="11" selection-start-line="11" selection-end-line="11" />
+        <state relative-caret-position="380">
+          <caret line="20" column="30" lean-forward="true" selection-start-line="20" selection-start-column="30" selection-end-line="20" selection-end-column="30" />
           <folding>
             <element signature="e#15#33#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://D:/Anaconda/Lib/site-packages/matplotlib/pyplot.py">
+    <entry file="file://$USER_HOME$/Desktop/Keras/test5.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="403">
-          <caret line="3416" column="4" selection-start-line="3416" selection-start-column="4" selection-end-line="3416" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/svm_test.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1601">
-          <caret line="130" column="28" selection-start-line="130" selection-start-column="28" selection-end-line="130" selection-end-column="28" />
+        <state>
           <folding>
-            <element signature="e#0#18#0" expanded="true" />
+            <element signature="e#0#12#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/MLP_test.py">
+    <entry file="file://$USER_HOME$/Desktop/Keras/test4.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="173">
-          <caret line="35" column="42" lean-forward="true" selection-start-line="35" selection-start-column="42" selection-end-line="35" selection-end-column="42" />
-          <folding>
-            <element signature="e#0#18#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="171">
+          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/gbr_test.py">
+    <entry file="file://$USER_HOME$/Desktop/Keras/test2.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$USER_HOME$/Desktop/Keras/test3.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1194">
-          <caret line="89" column="36" lean-forward="true" selection-start-line="89" selection-start-column="36" selection-end-line="89" selection-end-column="36" />
-          <folding>
-            <element signature="e#0#18#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="133">
+          <caret line="7" column="9" lean-forward="true" selection-start-line="7" selection-start-column="9" selection-end-line="7" selection-end-column="9" />
         </state>
       </provider>
     </entry>
-    <entry file="file://D:/Anaconda/Lib/site-packages/sklearn/ensemble/partial_dependence.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1343">
-          <caret line="167" column="63" lean-forward="true" selection-start-line="167" selection-start-column="63" selection-end-line="167" selection-end-column="63" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data_loading.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1330">
-          <caret line="72" column="33" selection-start-line="72" selection-start-column="33" selection-end-line="72" selection-end-column="33" />
-          <folding>
-            <element signature="e#0#10#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/keras.py">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/total_performance.py">
       <provider selected="true" editor-type-id="text-editor">
@@ -593,30 +718,80 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/partial_test.py">
+    <entry file="file://$PROJECT_DIR$/lr_test.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1311">
-          <caret line="69" column="22" selection-start-line="69" selection-start-column="22" selection-end-line="69" selection-end-column="22" />
+        <state relative-caret-position="38">
+          <caret line="6" selection-start-line="6" selection-end-line="6" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lr_test.py">
+    <entry file="file://$PROJECT_DIR$/MLP_test.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="741">
-          <caret line="46" column="37" selection-start-line="46" selection-start-column="37" selection-end-line="46" selection-end-column="37" />
+        <state relative-caret-position="399">
+          <caret line="30" selection-start-line="30" selection-end-line="35" selection-end-column="23" />
           <folding>
             <element signature="e#0#18#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/svm_test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="551">
+          <caret line="40" column="82" selection-start-line="40" selection-start-column="82" selection-end-line="40" selection-end-column="82" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gbr_test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="21" column="32" selection-start-line="21" selection-start-column="32" selection-end-line="21" selection-end-column="32" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pdp.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="931">
+          <caret line="57" column="43" selection-start-line="57" selection-start-column="43" selection-end-line="57" selection-end-column="43" />
+          <folding>
+            <element signature="e#16#34#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data_loading.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="618">
+          <caret line="60" column="36" selection-start-line="60" selection-start-column="36" selection-end-line="60" selection-end-column="36" />
+          <folding>
+            <element signature="e#0#10#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/rf_test.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="11" column="32" selection-end-line="142" selection-end-column="3" />
+        <state relative-caret-position="171">
+          <caret line="9" selection-start-line="9" selection-end-line="9" />
           <folding>
             <element signature="e#0#18#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/partial_test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="6" column="46" lean-forward="true" selection-start-line="6" selection-start-column="46" selection-end-line="6" selection-end-column="46" />
         </state>
       </provider>
     </entry>

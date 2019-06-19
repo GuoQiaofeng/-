@@ -9,7 +9,7 @@ from sklearn import linear_model
 from sklearn.metrics import mean_squared_error, explained_variance_score, r2_score
 from sklearn.model_selection import cross_val_score
 
-air = dl.load_data()
+air = dl.load_data1()
 
 features = pd.DataFrame(air.data, columns=air.feature_names)
 targets = air.target
@@ -18,6 +18,13 @@ X_train, X_test, y_train, y_test = train_test_split(features, targets, test_size
 
 gbr = GradientBoostingRegressor(n_estimators=500, learning_rate=0.01, loss='ls')
 gbr.fit(X_train, y_train)
+
+scores = cross_val_score(gbr, X_train, y_train, scoring="neg_mean_squared_error", cv=10)
+r2 = cross_val_score(gbr, X_train, y_train, scoring="r2", cv=10)
+rmse_scores = np.sqrt(-scores).mean()
+print("MSE:", -scores.mean())
+print("RMSE:", rmse_scores)
+print("R2:", r2.mean())
 
 y_train_pred = gbr.predict(X_train)
 y_test_pred = gbr.predict(X_test)

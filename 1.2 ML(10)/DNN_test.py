@@ -10,7 +10,7 @@ from keras.models import Sequential
 from keras.layers import Dense
 import matplotlib.pyplot as plt
 
-air = dl.load_data()
+air = dl.load_data1()
 
 features = pd.DataFrame(air.data, columns=air.feature_names)
 targets = air.target

@@ -11,7 +11,7 @@ from sklearn import linear_model
 from sklearn.metrics import mean_squared_error, explained_variance_score, r2_score
 from sklearn.model_selection import cross_val_score
 
-air = dl.load_data()
+air = dl.load_data1()
 
 features = pd.DataFrame(air.data, columns=air.feature_names)
 targets = air.target
@@ -37,6 +37,13 @@ y_test = scaler.transform(y_test.reshape(-1, 1))
 
 sv = svm.SVR(kernel='rbf', C=1)
 sv.fit(X_train, y_train)
+
+scores = cross_val_score(sv, X_train, y_train, scoring="neg_mean_squared_error", cv=10)
+r2 = cross_val_score(sv, X_train, y_train, scoring="r2", cv=10)
+rmse_scores = np.sqrt(-scores).mean()
+print("MSE:", -scores.mean())
+print("RMSE:", rmse_scores)
+print("R2:", r2.mean())
 
 y_train_pred = sv.predict(X_train)
 y_test_pred = sv.predict(X_test)

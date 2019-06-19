@@ -1,18 +1,15 @@
 import numpy as np
 import pandas as pd
 import matplotlib.pyplot as plt
-from sklearn.model_selection import train_test_split
 import data_loading as dl
-from sklearn import preprocessing
 from sklearn import linear_model
-from sklearn.metrics import mean_squared_error, explained_variance_score, r2_score
 
 
 plt.rcParams['font.sans-serif']=['SimHei']
 plt.rcParams['axes.unicode_minus'] = False
 
 
-air = dl.load_data()
+air = dl.load_data1()
 
 features = pd.DataFrame(air.data, columns=air.feature_names)
 targets = air.target

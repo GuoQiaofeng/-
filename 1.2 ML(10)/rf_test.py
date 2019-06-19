@@ -2,13 +2,14 @@ import numpy as np
 import pandas as pd
 import matplotlib.pyplot as plt
 from sklearn.model_selection import train_test_split
+from sklearn.model_selection import cross_val_score
 import data_loading as dl
 from sklearn.ensemble import RandomForestRegressor
 from sklearn import linear_model
 from sklearn.metrics import mean_squared_error, explained_variance_score, r2_score
 
 
-air = dl.load_data2()
+air = dl.load_data1()
 
 features = pd.DataFrame(air.data, columns=air.feature_names)
 targets = air.target
@@ -20,6 +21,14 @@ print(len(targets))
 
 rf = RandomForestRegressor(n_estimators=500, oob_score=True, random_state=0)
 rf.fit(X_train, y_train)
+
+
+scores = cross_val_score(rf, X_train, y_train, scoring="neg_mean_squared_error", cv=10)
+r2 = cross_val_score(rf, X_train, y_train, scoring="r2", cv=10)
+rmse_scores = np.sqrt(-scores).mean()
+print("MSE:", -scores.mean())
+print("RMSE:", rmse_scores)
+print("R2:", r2.mean())
 
 y_train_pred = rf.predict(X_train)
 y_test_pred = rf.predict(X_test)
@@ -137,8 +146,7 @@ plt.show()
 
 
 
-"""
+
 import pickle
-with open('save/rf.pickle', 'wb') as f:
+with open('save_model/rf.pickle', 'wb') as f:
     pickle.dump(rf, f)
-"""
