@@ -36,7 +36,7 @@ def load_data1(return_X_y=False):
 
     module_path = dirname(__file__)
 
-    data_file_name = join(module_path, 'data', 'total_test1.csv')
+    data_file_name = join(module_path, 'data', 'new_test1.csv')
     with open(data_file_name) as f:
         data_file = csv.reader(f)
         temp = next(data_file)
@@ -65,7 +65,7 @@ def load_data2(return_X_y=False):
 
     module_path = dirname(__file__)
 
-    data_file_name = join(module_path, 'data', 'total_test2.csv')
+    data_file_name = join(module_path, 'data', 'new_test2.csv')
     with open(data_file_name) as f:
         data_file = csv.reader(f)
         temp = next(data_file)

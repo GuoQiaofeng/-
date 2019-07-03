@@ -9,7 +9,7 @@ from sklearn import linear_model
 from sklearn.metrics import mean_squared_error, explained_variance_score, r2_score
 
 
-air = dl.load_data1()
+air = dl.load_data2()
 
 features = pd.DataFrame(air.data, columns=air.feature_names)
 targets = air.target

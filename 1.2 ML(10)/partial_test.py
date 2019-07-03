@@ -39,7 +39,7 @@ def main():
 
     print('Convenience plot with ``partial_dependence_plots``')
 
-    features = [(8, 9)]
+    features = [4]
     fig, axs = plot_partial_dependence(clf, X_train, features,
                                        feature_names=names,
                                        n_jobs=3, grid_resolution=100)
@@ -52,7 +52,7 @@ def main():
 
     fig = plt.figure()
 
-    target_feature = (7, 9)
+    target_feature = (5, 9)
     pdp, axes = partial_dependence(clf, target_feature,
                                    X=X_train, grid_resolution=50)
     XX, YY = np.meshgrid(axes[0], axes[1])
@@ -67,7 +67,7 @@ def main():
     ax.view_init(elev=22, azim=122)
     plt.colorbar(surf)
     plt.suptitle('Partial dependence of TSP on \n'
-                 'Grav and Hum')
+                 'PM10 and Hum')
     plt.subplots_adjust(top=0.9)
 
     plt.show()
